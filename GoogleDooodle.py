@@ -19,8 +19,8 @@ if len(img1) > 1:
     out.close()
 
 import tweepy
-auth = tweepy.OAuthHandler("K6tD9wK0LYx0sZzcYIf7Tv2R4", "SqyO48bhcTq1tr8GrI7OfohW61NCFDQBkHlzx5S5ADP6iXd5Ij")
-auth.set_access_token("2455218148-kGjjj9ny273xybc2yk2DLwIHbsgfuRTv6MtHJbX", "CKrVxEjRFaLwitz3ri7O500I3Fh3WkXz9zpm7Xazphwlr")
+auth = tweepy.OAuthHandler("***", "***")
+auth.set_access_token("***", "***")
 
 api = tweepy.API(auth)
 api.update_with_media("img.gif", "First post")
